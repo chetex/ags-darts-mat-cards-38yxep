@@ -1,0 +1,20 @@
+// styles.scss                         styles/
+// This is the main css file for the app. Styles here will be available
+// throught the entire app.
+/////////////////////////////////////////////////////////////////////////
+
+
+// Angular Material Theme
+@import "./styles/material/material-theme";
+
+
+// Get the config. This is needed in every component scss file.
+@import "./styles/config";
+
+
+// Normalize
+@import "~normalize-scss/sass/normalize/import-now";
+
+
+// Get the app partials
+@import "./styles/partials/all";
